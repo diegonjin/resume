@@ -1,23 +1,4 @@
-body {
-  font-family: "Chilanka", cursive;
-  color: white;
-  background-color: #04c4cc;
-  font-size: 16px;
-  margin: 0;
-}
-
-h1 {
-  font-size: 5rem;
-}
-
-p {
-  font-size: 2rem;
-}
-
-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh;
+.axiom-pattern {
+  background-image: url(/assets/axiom-pattern.png),
+    linear-gradient(to right, var(--tw-gradient-stops));
 }

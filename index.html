@@ -8,19 +8,115 @@
       href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
     <link href="styles.css" rel="stylesheet" />
+
     <script type="text/javascript">
-      (function(c,l,a,r,i,t,y){
-          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      (function (c, l, a, r, i, t, y) {
+        c[a] =
+          c[a] ||
+          function () {
+            (c[a].q = c[a].q || []).push(arguments);
+          };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = "https://www.clarity.ms/tag/" + i;
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
       })(window, document, "clarity", "script", "5e25ugjej1");
     </script>
   </head>
-  <body>
-    <section>
-      <h1>Diego Asensio</h1>
-      <p>Coming soon...</p>
-    </section>
+  <body class="font-mono bg-gray-100">
+    <header>
+      <div class="container flex mx-auto"></div>
+    </header>
+    <div class="flex flex-col">
+      <section
+        class="flex flex-wrap flex-row bg-gradient-to-r from-green-400 via-green-600 to-green-700 p-10 text-gray-200 axiom-pattern"
+      >
+        <div class="container flex flex-col mx-auto">
+          <div class="text-center md:my-20 my-10">
+            <img
+              class="rounded-full ring-8 ring-yellow-500 ring-offset-4 ring-offset-green-800 mx-auto md:w-3/12 w-2/4"
+              width="350"
+              height="350"
+              src="/assets/diegopop.jpg"
+            />
+          </div>
+          <div class="flex-row text-center">
+            <h1 class="md:text-4xl text-xl mb-4 text-center">
+              Hello, I'm
+              <span class="font-semibold text-yellow-500 italic animate-pulse"
+                >Diego Asensio</span
+              >
+            </h1>
+            <h2 class="md:text-2xl text-lg mb-4 text-center">
+              I'm a Front-end Specialist / Architect
+            </h2>
+            <p>From Alicante, Spain 🇪🇸</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div
+          class="container mx-auto py-10 px-5 text-green-800 flex md:flex-row flex-col items-center"
+        >
+          <div class="md:w-6/12 w-full md:mb-none mb-4">
+            <h2 class="text-2xl mb-4 font-semibold">About me</h2>
+            <p class="mb-4">
+              In love with Javascript since I met it, I am interested in
+              development of front-end architectures, building design systems
+              with atomic design and web development oriented to webcomponents.
+            </p>
+            <p class="md:mb-none mb-4">
+              In the last years I have developed front-end architectures and web
+              and mobile applications for the LATAM and Spanish banking area in
+              different clients and areas, specially with React, StencilJS,
+              Angular and Ionic frameworks, but picking up a new framework or
+              language is not a problem. I have extensive programming experience
+              in different technologies and I am comfortable  developing on the
+              front-end and back-end.
+            </p>
+          </div>
+          <div class="md:w-6/12 w-full px-5 flex justify-center items-start">
+            <img class="w-4/6" src="assets/computer.png" />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div
+          class="container mx-auto py-5 px-5 text-green-800 flex flex-row items-center"
+        >
+          <div class="w-full">
+            <h2 class="text-2xl mb-4 font-semibold">Job experience</h2>
+            <p>Coming soon</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div
+          class="container mx-auto py-5 px-5 text-green-800 flex flex-row items-center"
+        >
+          <div class="w-full">
+            <h2 class="text-2xl mb-4 font-semibold">Education</h2>
+            <p>Coming soon</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div
+          class="container mx-auto py-5 px-5 text-green-800 flex flex-row items-center"
+        >
+          <div class="w-full">
+            <h2 class="text-2xl mb-4 font-semibold">Projects</h2>
+            <p>Coming soon</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer></footer>
   </body>
 </html>
